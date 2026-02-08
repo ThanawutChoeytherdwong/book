@@ -189,3 +189,64 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+from web3 import Web3
+
+# เชื่อมต่อ Ethereum Node
+w3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/YOUR_PROJECT_ID"))
+
+# Smart Contract ที่ deploy แล้ว
+contract_address = "0xYourContractAddress"
+abi = [...]  # ABI ของ Smart Contract
+
+contract = w3.eth.contract(address=contract_address, abi=abi)
+
+# Owner Account
+owner = w3.eth.account.from_key("YOUR_PRIVATE_KEY")
+
+# ฟังก์ชันอัพเดทจาก Bot Group
+def upgrade_ai_engine(new_state):
+    tx = contract.functions.upgradeEngine(new_state).build_transaction({
+        'from': owner.address,
+        'nonce': w3.eth.get_transaction_count(owner.address),
+        'gas': 200000,
+        'gasPrice': w3.to_wei('50', 'gwei')
+    })
+    signed_tx = w3.eth.account.sign_transaction(tx, private_key=owner.key)
+    tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
+    print("🚀 Evolution Update Sent:", tx_hash.hex())
+
+# ตัวอย่างการอัพเดทจาก Bot 5: Evolution Engine
+upgrade_ai_engine("Bot5 Evolution: Self-Learning Upgrade")
+import tensorflow as tf
+from tensorflow.keras import layers, models
+import numpy as np
+
+# สร้างโมเดล CNN (Convolutional Neural Network)
+model = models.Sequential([
+    layers.Conv2D(32, (3, 3), activation='relu', input_shape=(64, 64, 3)),
+    layers.MaxPooling2D((2, 2)),
+    layers.Conv2D(64, (3, 3), activation='relu'),
+    layers.MaxPooling2D((2, 2)),
+    layers.Conv2D(128, (3, 3), activation='relu'),
+    layers.Flatten(),
+    layers.Dense(128, activation='relu'),
+    layers.Dense(1, activation='sigmoid')  # Output: 0 = แมว, 1 = สุนัข
+])
+
+# คอมไพล์โมเดล
+model.compile(optimizer='adam',
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+# ตัวอย่างการสร้างข้อมูลจำลอง (แทน dataset จริง)
+X_train = np.random.rand(100, 64, 64, 3)  # 100 รูปภาพ ขนาด 64x64
+y_train = np.random.randint(0, 2, 100)    # Label 0 หรือ 1
+
+# ฝึกโมเดล
+model.fit(X_train, y_train, epochs=5, batch_size=16)
+
+# ทดสอบโมเดลกับข้อมูลใหม่
+X_test = np.random.rand(10, 64, 64, 3)
+predictions = model.predict(X_test)
+
+print("ผลการทำนาย:", predictions)
