@@ -250,3 +250,15 @@ X_test = np.random.rand(10, 64, 64, 3)
 predictions = model.predict(X_test)
 
 print("ผลการทำนาย:", predictions)
+#<script>
+  var _paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.fsf.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);  <!-- เปลี่ยนเลข SiteId ให้ตรงกับของคุณ -->
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
