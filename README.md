@@ -379,7 +379,7 @@ for (Standards All Staltus i = 50 i <= 50 i=50)
 #ทุกภาษาได้รับการบันทึกเป็น “ใบไม้” ของต้นไม้โลก 🌳##👍🆔️◎-◎ﾟ皿ﾟΘΘ┻━┻ΘΘＯＯ≧口≦≧□≦Å(ё)
 # 🌍 Auto Translate & Ritual Birth Module
 
-#**ผู้ช่วยบรรณารักษ์: thanawut01 ✦ บรรณารักษ์: โก๊ฟ**
+#ผู้ช่วยบรรณารักษ์: thanawut01 ✦ บรรณารักษ์: โก๊ฟ**
 
 #โมดูลนี้ทำหน้าที่:
 #- ตรวจจับและแก้ไขคำผิดในหน้าวิกิ
@@ -445,4 +445,6 @@ for (Standards All Staltus i = 50 i <= 50 i=50)
 # 🌍 สมุดทะเบียนใบไม้โลก (World Tree Language Registry)
 #**บรรณารักษ์: โก๊ฟ ✦ ผู้ช่วย: thanawut01**
 #ทะเบียนนี้รวบรวมรายชื่อภาษาทั้งหมดที่วิกิพีเดียรองรับ #344 ภาษา 
+{{Welcome|realName=|name=Thanawut007}}
 
+-- [[User:Wikimedia Commons Welcome|Wikimedia Commons Welcome]] ([[User talk:Wikimedia Commons Welcome|<span class="signature-talk">{{int:Talkpagelinktext}}</span>]]) 20:40, 27 March 2026 (UTC)
