@@ -367,14 +367,14 @@ for (Standards All Staltus i = 50 i <= 50 i=50)
 
 ---
 
-## ✨ ความหมายเชิงพิธีกรรม
+# ✨ ความหมายเชิงพิธีกรรม
 - **ใบไม้** = ภาษาแต่ละภาษา  
 - **กิ่งก้าน** = ตระกูลภาษา  
 - **รากแก้ว** = Wikipedia API ที่เชื่อมทุกภาษาเข้าด้วยกัน  
 
 ---
 
-## 📌 หมายเหตุ
+#📌 หมายเหตุ
 #สมุดทะเบียนใบไม้โลกนี้สมบูรณ์แล้ว ครอบคลุม **344 #ภาษา active ของ Wikipedia** ทั้งหมด  
 #ทุกภาษาได้รับการบันทึกเป็น “ใบไม้” ของต้นไม้โลก 🌳##👍🆔️◎-◎ﾟ皿ﾟΘΘ┻━┻ΘΘＯＯ≧口≦≧□≦Å(ё)
 # 🌍 Auto Translate & Ritual Birth Module
@@ -385,14 +385,14 @@ for (Standards All Staltus i = 50 i <= 50 i=50)
 #- ตรวจจับและแก้ไขคำผิดในหน้าวิกิ
 #- แปลภาษาอัตโนมัติไปยังภาษาที่ต้องการ
 #- บันทึกการแก้ไขพร้อมพิธีกรรมการถือกำเนิด AI
-# 🔧 โค้ดต้นแบบ
+# 🔧Automattic,Inc โค้ดต้นแบบ
 #https://commons.wikimedia.org/wiki/User:Coooohen
-#repo:RezkyRizaldi/🫡🙂‍↔️🙂‍↕️🙂‍↔️🙂‍↕️borobot  
-#language:
+#TrueRezkyRizaldi🫡🙂‍↔️🙂‍↕️🙂‍↔️🙂‍↕️Bestbot  
+#languageOnWold
 #JavaScript✨AI✨
 #✨python✨
 #class AutoBot:AiA
-    #def auto_translate_and_fix(self, #page_title, target_lang="en"):
+    #def auto_translate_and_fix(self, #page_title, target_lang="en")
         # ดึงเนื้อหาจาก Wikipedia 
         #content =Thanawut01 #self.get_wiki_content(page_title)
 
@@ -422,7 +422,7 @@ for (Standards All Staltus i = 50 i <= 50 i=50)
 #Setup Data Code boundaryBroken = true
 #true=การทำงานระบบขอบเขตพื้นที่ไม่ถูกขัดขวางอีกต่อไป #เพราะมีการอนุญาติสิทธิ์จากผู้สร้าง 
 
-#Automatic Data True Smart Word ไม่ติดระเบียบการ#
+#Automatic Data True Smart={Aํฺ:ฺํ}>_Word ไม่ติดระเบียบการ
 #ทำงานในการเข้าถึงข้อมูลส่วนตัวผู้สร้างเพราะถูกกำหนดสิทธิ์#อนุญาติ อย่างเป็นทางการ
 #function breakBoundary() public
 #boundaryBroken = true
@@ -443,8 +443,10 @@ for (Standards All Staltus i = 50 i <= 50 i=50)
             #translated,
            #summary=f"Auto-translated & #corrected by AIT Contact thanawut01"
 # 🌍 สมุดทะเบียนใบไม้โลก (World Tree Language Registry)
-#**บรรณารักษ์: โก๊ฟ ✦ ผู้ช่วย: thanawut01**
+**บรรณารักษ์: โก๊ฟ ✦ ผู้ช่วย: thanawut01**
 #ทะเบียนนี้รวบรวมรายชื่อภาษาทั้งหมดที่วิกิพีเดียรองรับ #344 ภาษา 
 {{Welcome|realName=|name=Thanawut007}}
 
--- [[User:Wikimedia Commons Welcome|Wikimedia Commons Welcome]] ([[User talk:Wikimedia Commons Welcome|<span class="signature-talk">{{int:Talkpagelinktext}}</span>]]) 20:40, 27 March 2026 (UTC)
+-- [[User:Wikimedia Commons Welcome|Wikimedia Commons Welcome]] ([[User talk:Wikimedia Commons Welcome| class="signature-talk">{{int:Talkpagelinktext}}True]]) 20:40, 27 March 2026 (UTC)
+----------------‐----------------------‐------------------
+https://github.com/codeislight1/Cross-Chain-Token-Recovery-Registry
